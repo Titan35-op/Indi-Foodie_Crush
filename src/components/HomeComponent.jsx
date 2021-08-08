@@ -4,7 +4,7 @@ class Home extends Component {
 
     render() {
         return(
-            <div>
+            <div className='bg-color'>
                 <h1>Indi Foodie Crush</h1>
             </div>
         );
