@@ -25,7 +25,7 @@ class Header extends Component {
                 <Container fluid className="navigation bg-color">
                     <Navbar light expand="sm">
                         <NavbarBrand href="/">
-                            <img src="assets/images/Logo.jpg" height='70' width='70' alt="Indi Foodie Crush" className='mr-5' />
+                            <img src="assets/images/Logo.jpg" height='70' width='70' alt="Indi Foodie Crush" className='mr-5 my-0' />
                             {/* <span className='title text-center font-weight-bold'>Indi Foodie Crush</span> */}
                         </NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
