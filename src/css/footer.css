@@ -1,0 +1,8 @@
+.footer {
+    background-color: grey;
+}
+.footer p {
+    font-weight: normal;
+    font-family: monospace;
+    color: white;
+}

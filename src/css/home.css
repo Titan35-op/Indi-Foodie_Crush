@@ -6,7 +6,7 @@
     border-radius: 10px;
 }
 
-.jumbotron .card-title , p { 
+.jumbotron .card-overlay , p { 
     font-family: cursive;
     font-weight: bolder;
     color: orange;

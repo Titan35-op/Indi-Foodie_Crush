@@ -23,9 +23,9 @@ class Home extends Component {
                     <Card inverse>
                         <CardImg src="/assets/images/bg.jpg" alt="Card image cap" />
                         <CardImgOverlay className='text-center m-auto'>
-                            <CardTitle><h1>Welcome To</h1></CardTitle>
-                            <CardText><h1>INDI FOODIE CRUSH</h1></CardText>
-                            <CardText><h1>New Videos Every Weekdays</h1></CardText>
+                            <CardTitle tag='h1'>Welcome To</CardTitle>
+                            <CardText tag='h1'>INDI FOODIE CRUSH</CardText>
+                            <CardText tag='h4'>New Videos Every Weekdays</CardText>
                         </CardImgOverlay>
                     </Card>
                 </Jumbotron>
