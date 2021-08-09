@@ -1,5 +1,6 @@
 import { Component } from "react";
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, NavLink, Button, Container } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Button, Container } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 import '../css/header.css';
 
 class Header extends Component {
@@ -32,9 +33,9 @@ class Header extends Component {
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavLink className='mx-2 my-1 navLinks text-center' to='/home'><i className='fa fa-home fa-lg mx-2'></i>Home</NavLink>
-                                <NavLink className='mx-2 my-1 navLinks text-center' to='/aboutus'><i className='fa fa-info fa-lg mx-2'></i>About Us</NavLink>
                                 <NavLink className='mx-2 my-1 navLinks text-center' to='/Recipes'><i className='fa fa-cutlery mx-2'></i>Recipes</NavLink>
-                                <NavLink className='mx-2 my-1 navLinks text-center' to='/contactus'><i className='fa fa-comments-o fa-lg mx-2'></i>Feedback</NavLink>
+                                <NavLink className='mx-2 my-1 navLinks text-center' to='/aboutus'><i className='fa fa-info fa-lg mx-2'></i>About Us</NavLink>
+                                <NavLink className='mx-2 my-1 navLinks text-center' to='/feedback'><i className='fa fa-comments-o fa-lg mx-2'></i>Feedback</NavLink>
                             </Nav>
                             <Nav className="mx-3 social text-center" navbar>
                                 <NavItem>

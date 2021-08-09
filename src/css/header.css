@@ -11,12 +11,15 @@
 .navLinks{
     font-weight: bold;
     font-size: large;
+    text-decoration: none;
+    color: white;
 }
 
 .navLinks:hover{
     position: relative;
-    top: -2px;
+    top: -3px;
     transition: 0.2s;
+    color: rgb(170, 170, 170);
 }
 
 .navbar-collapse {
@@ -29,4 +32,8 @@
 .navbar-dark .navbar-toggler {
     background-color: rgba(0, 0, 0, 0.753);
     border-radius: 8px;
+}
+
+.active {
+    color: rgb(170, 170, 170);
 }
