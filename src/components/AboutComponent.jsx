@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Card, CardImg, CardImgOverlay, CardTitle, Jumbotron, Toast, ToastHeader, ToastBody } from 'reactstrap';
-import '../css/about.css'
 
 class About extends Component {
     render() {

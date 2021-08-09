@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import { Card, CardImg, CardImgOverlay, CardTitle, CardText, CardBody, Jumbotron, Container, Row, Col } from 'reactstrap';
-import '../css/home.css';
 
 function RenderCard() {
     return (

@@ -1,21 +1,102 @@
+/* Global */
+
 * {
     margin: 0;
     padding: 0;
 }
-
 .bg-color {
     background-color: #ebfff9;
 }
 
+/* Navbar */
+
+.navbar img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.social .btn {
+    width: 40px;
+    height: 40px;
+}
+.navLinks{
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+.navLinks:hover{
+    position: relative;
+    transition: all 0.3s;
+    top: -3px;
+    color: rgb(201, 201, 201);
+}
+.navbar-collapse {
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.navbar-dark .navbar-toggler {
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 6px;
+}
+.active {
+    color: rgb(170, 170, 170);
+}
+@media only screen and (max-width: 960px) {
+    .navbar-collapse {
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    .navLinks{
+        padding: 1px;
+    }
+}
+
+/* Jumbotron */
+
 .jumbotron {
     margin: 0px 10px;
 }
-
 .jumbotron .card-title {
     font-size: 6em;
 }
-
+.jumbotron .card-overlay { 
+    font-family: cursive;
+    font-weight: bolder;
+    color: orange;
+}
+.container .card {
+    width: 80%;
+    margin: auto;
+}
+.jumbotron .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 @media only screen and (max-width: 960px) {
+    .jumbotron .card-title {
+        font-size: 2rem;
+    }
+}
+
+/* About Us */
+
+.about-toast {
+    width: 70vw;
+}
+.about-toast-header {
+    font-size: 1.2rem;
+}
+.about-toast-body p {
+    font-size: 1.1rem;
+}
+@media only screen and (max-width: 960px) {
+    .about-toast-body p {
+        font-size: 1rem;
+    }
     .about-toast {
         width: 85vw;
     }
@@ -25,7 +106,34 @@
     .about-toast-body p {
         font-size: 1rem;
     }
-    .jumbotron .card-title {
-        font-size: 2rem;
+}
+
+/* Feedback Form */
+
+.form-toast-header {
+    font-size: 1.6rem;
+}
+.form-toast-body label {
+    font-size: 1.2rem;
+}
+@media only screen and (max-width: 960px) {
+    .form-toast-header {
+        font-size: 1.25rem;
     }
+    .form-toast-body label {
+        font-size: 1.15rem;
+    }
+}
+/* Footer */
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.753);
+}
+.footer p {
+    font-weight: normal;
+    font-family: monospace;
+    color: white;
+}
+.footer:hover {
+    background-color: rgba(66, 66, 66, 0.877);
 }

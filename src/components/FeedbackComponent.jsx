@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import { Toast, ToastBody, ToastHeader, FormGroup, Label, Input, Form, Button, Col, Jumbotron, Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
-import '../css/about.css';
-import '../css/feedback.css';
 
 class Feedback extends Component {
     render() {
