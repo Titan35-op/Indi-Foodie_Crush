@@ -32,12 +32,12 @@ class Home extends Component {
                 <h2 className='text-center m-3'>Popular videos</h2>
                 <Container>
                     <Row>
-                        <Col md='6' className='my-2'><RenderCard /></Col>
-                        <Col md='6' className='my-2'><RenderCard /></Col>
+                        <Col md='6' className='mt-2 mb-3'><RenderCard /></Col>
+                        <Col md='6' className='mt-2 mb-3'><RenderCard /></Col>
                     </Row>
                     <Row>
-                        <Col md='6' className='my-2'><RenderCard /></Col>
-                        <Col md='6' className='my-2'><RenderCard /></Col>
+                        <Col md='6' className='mt-2 mb-3'><RenderCard /></Col>
+                        <Col md='6' className='mt-2 mb-3'><RenderCard /></Col>
                     </Row>
                 </Container>
             </div>

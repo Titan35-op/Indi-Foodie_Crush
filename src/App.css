@@ -4,5 +4,9 @@
 }
 
 .bg-color {
-    background-color: #e9f0ee;
+    background-color: #f8fffd;
+}
+
+.jumbotron {
+    margin: 0px 10px;
 }

@@ -1,6 +1,6 @@
 .navbar img {
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 .social .btn {
@@ -17,16 +17,16 @@
 
 .navLinks:hover{
     position: relative;
+    transition: all 0.3s;
     top: -3px;
-    transition: 0.2s;
-    color: rgb(170, 170, 170);
+    color: rgb(201, 201, 201);
 }
 
 .navbar-collapse {
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.753);
     padding: 5px 10px;
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 .navbar-dark .navbar-toggler {

@@ -1,12 +1,4 @@
-.jumbotron {
-    width: 95%;
-    height: 40vw;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.jumbotron .card-overlay , p { 
+.jumbotron .card-overlay { 
     font-family: cursive;
     font-weight: bolder;
     color: orange;

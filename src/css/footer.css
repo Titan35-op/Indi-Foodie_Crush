@@ -6,3 +6,6 @@
     font-family: monospace;
     color: white;
 }
+.footer:hover {
+    background-color: rgba(66, 66, 66, 0.877);
+}

@@ -11,7 +11,7 @@ class Main extends Component {
 
     render() {
         return (
-            <div>
+            <div className='bg-color'>
                 <Header />
                 <Switch>
                     <Route path='/home' component={() => <Home />} />
