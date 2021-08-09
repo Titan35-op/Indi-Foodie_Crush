@@ -4,9 +4,28 @@
 }
 
 .bg-color {
-    background-color: #f8fffd;
+    background-color: #ebfff9;
 }
 
 .jumbotron {
     margin: 0px 10px;
+}
+
+.jumbotron .card-title {
+    font-size: 6em;
+}
+
+@media only screen and (max-width: 960px) {
+    .about-toast {
+        width: 85vw;
+    }
+    .about-toast-header {
+        font-size: 1.1rem;
+    }
+    .about-toast-body p {
+        font-size: 1rem;
+    }
+    .jumbotron .card-title {
+        font-size: 2rem;
+    }
 }

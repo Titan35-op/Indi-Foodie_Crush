@@ -23,8 +23,8 @@ class Home extends Component {
                     <Card inverse>
                         <CardImg src="/assets/images/bg.jpg" alt="Card image cap" />
                         <CardImgOverlay className='text-center m-auto'>
-                            <CardTitle tag='h1'>Welcome To</CardTitle>
-                            <CardText tag='h1'>INDI FOODIE CRUSH</CardText>
+                            <CardText tag='h1'>Welcome To</CardText>
+                            <CardTitle tag='h1'>INDI FOODIE CRUSH</CardTitle>
                             <CardText tag='h4'>New Videos Every Weekdays</CardText>
                         </CardImgOverlay>
                     </Card>

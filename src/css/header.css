@@ -31,9 +31,19 @@
 
 .navbar-dark .navbar-toggler {
     background-color: rgba(0, 0, 0, 0.753);
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .active {
     color: rgb(170, 170, 170);
+}
+
+@media only screen and (max-width: 960px) {
+    .navbar-collapse {
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+    .navLinks{
+        padding: 1px;
+    }
 }
