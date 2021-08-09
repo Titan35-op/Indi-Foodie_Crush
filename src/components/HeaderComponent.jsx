@@ -22,21 +22,21 @@ class Header extends Component {
     render() {
         return (
             <>
-                <Container fluid className="navigation bg-color">
-                    <Navbar light expand="sm">
+                <Container fluid className="navigation bg-color px-4">
+                    <Navbar dark expand="sm">
                         <NavbarBrand href="/">
-                            <img src="assets/images/Logo.jpg" height='70' width='70' alt="Indi Foodie Crush" className='mr-5 my-0' />
+                            <img src="assets/images/Logo.jpg" height='80' width='80' alt="Indi Foodie Crush"/>
                             {/* <span className='title text-center font-weight-bold'>Indi Foodie Crush</span> */}
                         </NavbarBrand>
-                        <NavbarToggler onClick={this.toggleNav} />
+                        <NavbarToggler onClick={this.toggleNav}/>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
-                                <NavLink end className='mx-2 my-1 navLinks' to='/home'><i className='fa fa-home fa-lg'></i><span className='mx-2'>Home</span></NavLink>
-                                <NavLink end className='mx-2 my-1 navLinks' to='/aboutus'><i className='fa fa-info fa-lg'></i><span className='mx-2'>About Us</span></NavLink>
-                                <NavLink end className='mx-2 my-1 navLinks' to='/Recipes'><i className='fa fa-cutlery'></i><span className='mx-2'>Recipes</span></NavLink>
-                                <NavLink end className='mx-2 my-1 navLinks' to='/contactus'><i className='fa fa-comments-o fa-lg'></i><span className='mx-2'>Feedback</span></NavLink>
+                                <NavLink className='mx-2 my-1 navLinks text-center' to='/home'><i className='fa fa-home fa-lg mx-2'></i>Home</NavLink>
+                                <NavLink className='mx-2 my-1 navLinks text-center' to='/aboutus'><i className='fa fa-info fa-lg mx-2'></i>About Us</NavLink>
+                                <NavLink className='mx-2 my-1 navLinks text-center' to='/Recipes'><i className='fa fa-cutlery mx-2'></i>Recipes</NavLink>
+                                <NavLink className='mx-2 my-1 navLinks text-center' to='/contactus'><i className='fa fa-comments-o fa-lg mx-2'></i>Feedback</NavLink>
                             </Nav>
-                            <Nav className="mx-3 social" navbar>
+                            <Nav className="mx-3 social text-center" navbar>
                                 <NavItem>
                                     <Button color="danger" className="rounded-circle">
                                         <span className="fa fa-youtube"></span>

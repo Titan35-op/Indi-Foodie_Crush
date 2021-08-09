@@ -1,21 +1,19 @@
 .navbar img {
     border-radius: 50%;
-    margin: 0 30px;
+    margin-right: 20px;
 }
 
 .social .btn {
     width: 40px;
     height: 40px;
 }
-  
+
 .navLinks{
     font-weight: bold;
-    color:rgb(218, 34, 34);
     font-size: large;
 }
 
 .navLinks:hover{
-    font-size: 1.2rem;
     position: relative;
     top: -2px;
     transition: 0.2s;
@@ -23,5 +21,12 @@
 
 .navbar-collapse {
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 5px 10px;
+    border-radius: 30px;
 }
 
+.navbar-dark .navbar-toggler {
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 8px;
+}
