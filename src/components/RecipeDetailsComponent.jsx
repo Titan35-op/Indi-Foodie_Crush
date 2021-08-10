@@ -19,7 +19,7 @@ class RecipeDetail extends Component {
                     </Row>
                     <Row className="p-3 my-2 rounded bg-docs-transparent-grid">
                         <Col sm='12' className='d-flex justify-content-center'>
-                            <Toast>
+                            <Toast className='rd-toast'>
                                 <ToastHeader className='about-toast-header'>
                                     {this.props.recipe.name}
                                 </ToastHeader>
@@ -31,7 +31,7 @@ class RecipeDetail extends Component {
                     </Row>
                     <Row className="p-3 my-2 rounded bg-docs-transparent-grid">
                         <Col sm={8} className='mb-2'>
-                            <Toast>
+                            <Toast className='rd-toast'>
                                 <ToastHeader className='about-toast-header'>
                                     Recipe
                                 </ToastHeader>
@@ -41,7 +41,7 @@ class RecipeDetail extends Component {
                             </Toast>
                         </Col>
                         <Col sm={4} className='mb-2'>
-                            <Toast>
+                            <Toast className='rd-toast'>
                                 <ToastHeader className='about-toast-header'>
                                     Ingredients
                                 </ToastHeader>

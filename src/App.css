@@ -5,7 +5,7 @@
     padding: 0;
 }
 .bg-color {
-    background-color: #c3f2f5;
+    background-color: #dbfdff;
 }
 
 /* Navbar */
@@ -158,11 +158,35 @@
     border-radius: 8px;
     /* margin: 0px 10px; */
 }
-.toast {
+.rd-toast {
     width: 100%;
     padding: 10px;
 }
 .hover:hover {
     transform: scale(1.04);
     transition: all 0.5s;
+}
+
+/* React Transition */
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
 }
