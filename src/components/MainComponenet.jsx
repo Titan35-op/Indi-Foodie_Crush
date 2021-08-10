@@ -1,5 +1,5 @@
-import { Component } from 'react';
-import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import { Component, useEffect } from 'react';
+import { Switch, Route, Redirect, withRouter, useLocation } from 'react-router-dom';
 import Footer from './FooterComponent';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
@@ -10,6 +10,16 @@ import RecipeDetail from './RecipeDetailsComponent';
 
 import { RECIPES } from '../shared/recipe';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
+
+function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
 
 class Main extends Component {
 
@@ -34,6 +44,7 @@ class Main extends Component {
 
         return (
             <div className='bg-color'>
+                <ScrollToTop />
                 <Header />
                 <TransitionGroup>
                     <CSSTransition key={this.props.location.key} classNames="page" timeout={300}>
