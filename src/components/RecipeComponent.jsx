@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 function RenderCard({ recipe }) {
     return (
         <Col md='6' className='mt-2 mb-3'>
-            <Card>
+            <Card className='hover'>
                 <Link to={`/menu/${recipe.id}`} className='none'>
-                    <CardImg top src={recipe.thumbnail} alt={recipe.name} />
+                    <CardImg top src={recipe.thumbnail} alt={recipe.name}/>
                     <CardBody>
                         <CardTitle tag="h5">{recipe.name}</CardTitle>
                         <CardText>{recipe.description}</CardText>

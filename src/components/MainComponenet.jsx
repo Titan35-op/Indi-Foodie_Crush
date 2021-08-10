@@ -6,7 +6,7 @@ import Home from './HomeComponent';
 import About from './AboutComponent';
 import Recipe from './RecipeComponent';
 import Feedback from './FeedbackComponent';
-import RecipeDetail from './RecipeDetail';
+import RecipeDetail from './RecipeDetailsComponent';
 
 import { RECIPES } from '../shared/recipe'
 

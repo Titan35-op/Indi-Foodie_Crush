@@ -5,7 +5,7 @@
     padding: 0;
 }
 .bg-color {
-    background-color: #ebfff9;
+    background-color: #c3f2f5;
 }
 
 /* Navbar */
@@ -149,4 +149,20 @@
 }
 .none:hover {
     color: gray;
+}
+
+/* Recipe Details */
+
+.video {
+    background-color: black;
+    border-radius: 8px;
+    /* margin: 0px 10px; */
+}
+.toast {
+    width: 100%;
+    padding: 10px;
+}
+.hover:hover {
+    transform: scale(1.04);
+    transition: all 0.5s;
 }
