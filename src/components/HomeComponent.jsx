@@ -1,15 +1,18 @@
 import { Component } from 'react';
 import { Card, CardImg, CardImgOverlay, CardTitle, CardText, CardBody, Jumbotron, Container, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 function RenderCard({ recipe }) {
     return (
         <Col md='6' className='mt-2 mb-3'>
             <Card>
-                <CardImg width="100%" top src={recipe.thumbnail} alt={recipe.name} />
-                <CardBody>
-                    <CardTitle tag="h5">{recipe.name}</CardTitle>
-                    <CardText>{recipe.description}</CardText>
-                </CardBody>
+                <Link to={`/menu/${recipe.id}`} className='none'>
+                    <CardImg top src={recipe.thumbnail} alt={recipe.name} />
+                    <CardBody>
+                        <CardTitle tag="h5">{recipe.name}</CardTitle>
+                        <CardText>{recipe.description}</CardText>
+                    </CardBody>
+                </Link>
             </Card>
         </Col>
     )
@@ -22,7 +25,7 @@ class Home extends Component {
             if (recipe.featured) {
                 return (
                     <RenderCard recipe={recipe} />
-                ); 
+                );
             }
             else return null;
         });

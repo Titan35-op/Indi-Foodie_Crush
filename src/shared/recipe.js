@@ -7,6 +7,7 @@ export const RECIPES = [
         url: '#',
         veg: true,
         featured: true,
+        recipe: 'This is the recipe of this dish',
         description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'
     },
     {
@@ -17,6 +18,7 @@ export const RECIPES = [
         url: '#',
         veg: true,
         featured: true,
+        recipe: 'This is the recipe of this dish',
         description: 'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce'
     },
     {
@@ -27,6 +29,7 @@ export const RECIPES = [
         url: '#',
         veg: true,
         featured: true,
+        recipe: 'This is the recipe of this dish',
         description: 'A quintessential ConFusion experience, is it a vada or is it a donut?'
     },
     {
@@ -37,6 +40,7 @@ export const RECIPES = [
         url: '#',
         veg: false,
         featured: true,
+        recipe: 'This is the recipe of this dish',
         description: 'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
     }
 ]

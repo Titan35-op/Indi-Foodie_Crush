@@ -140,3 +140,13 @@
 .footer:hover {
     background-color: rgba(66, 66, 66, 0.877);
 }
+
+/* Recipe card */
+
+.none {
+    text-decoration: none;
+    color: black;
+}
+.none:hover {
+    color: gray;
+}
