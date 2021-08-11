@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 function RenderCard({ recipe }) {
     return (
-        <Col md='6' className='mt-2 mb-3'>
-            <Card className='hover'>
+        <Col md='5' className='my-3 d-flex justify-content-center'>
+            <Card className='hover mx-0'>
                 <Link to={`/menu/${recipe.id}`} className='none'>
                     <CardImg top src={recipe.thumbnail} alt={recipe.name}/>
                     <CardBody>
@@ -44,7 +44,7 @@ class Home extends Component {
                 </Jumbotron>
                 <h2 className='text-center m-3'>Popular videos</h2>
                 <Container>
-                    <Row>
+                    <Row className=' d-flex justify-content-center'>
                         {recipe}
                     </Row>
                 </Container>

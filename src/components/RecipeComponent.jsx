@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 function RenderCard({ recipe }) {
     return (
-        <Col md='6' className='mt-2 mb-3'>
-            <Card className='hover'>
+        <Col md='5' className='my-3 d-flex justify-content-center'>
+            <Card className='hover mx-0'>
                 <Link to={`/menu/${recipe.id}`} className='none'>
-                    <CardImg top src={recipe.thumbnail} alt={recipe.name}/>
+                    <CardImg top src={recipe.thumbnail} alt={recipe.name} />
                     <CardBody>
                         <CardTitle tag="h5">{recipe.name}</CardTitle>
                         <CardText>{recipe.description}</CardText>
@@ -22,9 +22,9 @@ class Recipe extends Component {
 
     render() {
         const recipe = this.props.recipes.map((recipe) => {
-                return (
-                    <RenderCard recipe={recipe} />
-                );
+            return (
+                <RenderCard recipe={recipe} />
+            );
         });
 
         return (
@@ -39,7 +39,7 @@ class Recipe extends Component {
                 </Jumbotron>
                 <h2 className='text-center m-3'>All videos</h2>
                 <Container>
-                    <Row>
+                    <Row className=' d-flex justify-content-center'>
                         {recipe}
                     </Row>
                 </Container>

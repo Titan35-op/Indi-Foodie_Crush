@@ -14,7 +14,10 @@
     border-radius: 50%;
     margin-right: 5px;
 }
-
+.navbar-text{
+    color: black;
+    font-weight: bold;
+}
 .social .btn {
     width: 40px;
     height: 40px;
@@ -38,7 +41,6 @@
     border-radius: 25px;
 }
 .navbar-dark .navbar-toggler {
-    background-color: rgba(0, 0, 0, 0.753);
     border-radius: 6px;
 }
 .active {
@@ -166,6 +168,15 @@
     transform: scale(1.04);
     transition: all 0.5s;
 }
+@media only screen and (max-width: 960px) {
+    .video {
+        border-radius: 0px;
+    }
+    .hover:active {
+        transform: scale(1.04);
+        transition: all 0.5s;
+    }
+}
 
 /* React Transition */
 
@@ -173,18 +184,15 @@
     opacity: 0.01;
     transform: translateX(-100%);
 }
-
 .page-enter-active {
     opacity: 1;
     transform: translateX(0%);
     transition: all 300ms ease-in;
 }
-
 .page-exit {
     opacity: 1;
     transform: translateX(0%);
 }
-
 .page-exit-active {
     opacity: 0.01;
     transform: translateX(100%);

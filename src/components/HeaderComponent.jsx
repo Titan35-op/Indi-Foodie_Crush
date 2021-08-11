@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Button, Container } from 'reactstrap';
+import { Navbar, NavbarBrand, NavbarText, Nav, NavbarToggler, Collapse, NavItem, Button, Container } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -23,12 +23,14 @@ class Header extends Component {
         return (
             <>
                 <Container fluid className="navigation bg-color px-4">
-                    <Navbar dark expand="sm">
+                    <Navbar light expand="sm">
                         <NavbarBrand href="/">
-                            <img src="assets/images/Logo.jpg" height='80' width='80' alt="Indi Foodie Crush"/>
-                            {/* <span className='title text-center font-weight-bold'>Indi Foodie Crush</span> */}
+                            <img src="assets/images/Logo.jpg" height='80' width='80' alt="Indi Foodie Crush" className='d-none d-sm-flex'/>
+                            <NavbarText className="h1 d-flex d-sm-none my-auto ml-3 p-0">
+                                IFC
+                            </NavbarText>
                         </NavbarBrand>
-                        <NavbarToggler onClick={this.toggleNav}/>
+                        <NavbarToggler onClick={this.toggleNav} className='my-2'/>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavLink className='mx-2 my-1 navLinks text-center' to='/home'><i className='fa fa-home fa-lg mx-2'></i>Home</NavLink>

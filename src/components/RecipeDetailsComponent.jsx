@@ -30,23 +30,23 @@ class RecipeDetail extends Component {
                         </Col>
                     </Row>
                     <Row className="p-3 my-2 rounded bg-docs-transparent-grid">
-                        <Col sm={8} className='mb-2'>
-                            <Toast className='rd-toast'>
-                                <ToastHeader className='about-toast-header'>
-                                    Recipe
-                                </ToastHeader>
-                                <ToastBody className='about-toast-body'>
-                                    {this.props.recipe.recipe}
-                                </ToastBody>
-                            </Toast>
-                        </Col>
-                        <Col sm={4} className='mb-2'>
+                    <Col sm={4} className='mb-2 order-sm-last'>
                             <Toast className='rd-toast'>
                                 <ToastHeader className='about-toast-header'>
                                     Ingredients
                                 </ToastHeader>
                                 <ToastBody className='about-toast-body'>
                                     {this.props.recipe.ingredients}
+                                </ToastBody>
+                            </Toast>
+                        </Col>
+                        <Col sm={8} className='mb-2 order-sm-first'>
+                            <Toast className='rd-toast'>
+                                <ToastHeader className='about-toast-header'>
+                                    Recipe
+                                </ToastHeader>
+                                <ToastBody className='about-toast-body'>
+                                    {this.props.recipe.recipe}
                                 </ToastBody>
                             </Toast>
                         </Col>
