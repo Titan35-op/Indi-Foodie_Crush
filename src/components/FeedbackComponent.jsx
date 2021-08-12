@@ -7,7 +7,7 @@ class Feedback extends Component {
             <div>
                 <Jumbotron>
                     <Card inverse>
-                        <CardImg src="/assets/images/feedback.jpg" alt="Card image cap" />
+                        <CardImg src="/assets/images/feedback2.jpg" alt="Card image cap" />
                         <CardImgOverlay className='text-center m-auto'>
                             <CardTitle tag='h1'>Feedback</CardTitle>
                         </CardImgOverlay>

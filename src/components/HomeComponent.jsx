@@ -9,8 +9,8 @@ function RenderCard({ recipe }) {
                 <Link to={`/menu/${recipe.id}`} className='none'>
                     <CardImg top src={recipe.thumbnail} alt={recipe.name}/>
                     <CardBody>
-                        <CardTitle tag="h5">{recipe.name}</CardTitle>
-                        <CardText>{recipe.description}</CardText>
+                        <CardTitle tag="h5" className='f2'>{recipe.name}</CardTitle>
+                        <CardText className='f3'>{recipe.description}</CardText>
                     </CardBody>
                 </Link>
             </Card>
@@ -34,7 +34,7 @@ class Home extends Component {
             <div className='bg-color'>
                 <Jumbotron>
                     <Card inverse>
-                        <CardImg src="/assets/images/bg1.jpg" alt="Card image cap" />
+                        <CardImg src="/assets/images/bg.jpg" alt="Card image cap" />
                         <CardImgOverlay className='text-center m-auto'>
                             <CardText tag='h1'>Welcome To</CardText>
                             <CardTitle tag='h1'>INDI FOODIE CRUSH</CardTitle>
@@ -42,7 +42,7 @@ class Home extends Component {
                         </CardImgOverlay>
                     </Card>
                 </Jumbotron>
-                <h2 className='text-center m-3'>Popular videos</h2>
+                <h2 className='text-center m-3 f3'>Popular videos</h2>
                 <Container>
                     <Row className=' d-flex justify-content-center'>
                         {recipe}

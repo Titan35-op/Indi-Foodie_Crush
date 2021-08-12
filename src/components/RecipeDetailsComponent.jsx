@@ -23,7 +23,7 @@ class RecipeDetail extends Component {
                                 <ToastHeader className='about-toast-header'>
                                     {this.props.recipe.name}
                                 </ToastHeader>
-                                <ToastBody className='about-toast-body'>
+                                <ToastBody className='about-toast-body f3'>
                                     {this.props.recipe.description}
                                 </ToastBody>
                             </Toast>
@@ -35,7 +35,7 @@ class RecipeDetail extends Component {
                                 <ToastHeader className='about-toast-header'>
                                     Ingredients
                                 </ToastHeader>
-                                <ToastBody className='about-toast-body'>
+                                <ToastBody className='about-toast-body f3'>
                                     {this.props.recipe.ingredients}
                                 </ToastBody>
                             </Toast>
@@ -45,7 +45,7 @@ class RecipeDetail extends Component {
                                 <ToastHeader className='about-toast-header'>
                                     Recipe
                                 </ToastHeader>
-                                <ToastBody className='about-toast-body'>
+                                <ToastBody className='about-toast-body f3'>
                                     {this.props.recipe.recipe}
                                 </ToastBody>
                             </Toast>

@@ -9,8 +9,8 @@ function RenderCard({ recipe }) {
                 <Link to={`/menu/${recipe.id}`} className='none'>
                     <CardImg top src={recipe.thumbnail} alt={recipe.name} />
                     <CardBody>
-                        <CardTitle tag="h5">{recipe.name}</CardTitle>
-                        <CardText>{recipe.description}</CardText>
+                    <CardTitle tag="h5" className='f2'>{recipe.name}</CardTitle>
+                        <CardText className='f3'>{recipe.description}</CardText>
                     </CardBody>
                 </Link>
             </Card>
@@ -37,7 +37,7 @@ class Recipe extends Component {
                         </CardImgOverlay>
                     </Card>
                 </Jumbotron>
-                <h2 className='text-center m-3'>All videos</h2>
+                <h2 className='text-center m-3 f3'>All videos</h2>
                 <Container>
                     <Row className=' d-flex justify-content-center'>
                         {recipe}

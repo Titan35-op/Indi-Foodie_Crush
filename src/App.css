@@ -1,11 +1,29 @@
 /* Global */
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Atkinson+Hyperlegible:ital@1&family=Dancing+Script:wght@600&family=Georama:wght@200&family=Righteous&family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Fonts */
+.f1 {
+    font-family: 'Architects Daughter', cursive;
+}
+.f2 {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    color: #f5d246;
+}
+.f3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(189, 123, 0);
+}
+.f4 {
+    font-family: 'Georama', sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
 }
 .bg-color {
-    background-color: #dbfdff;
+    background-color: #f4feff;
 }
 
 /* Navbar */
@@ -65,7 +83,7 @@
     font-size: 6em;
 }
 .jumbotron .card-overlay { 
-    font-family: cursive;
+    font-family: 'Righteous', cursive;
     font-weight: bolder;
     color: orange;
 }
@@ -78,12 +96,14 @@
     flex-direction: column;
     justify-content: center;
     font-weight: bold;
-    font-family: cursive;
-    color: black;
+    font-family: 'Architects Daughter', cursive;
+    color: #efdb3b;
+    text-shadow: -10px 7px 1px #776c3c;
 }
 @media only screen and (max-width: 960px) {
     .jumbotron .card-title {
-        font-size: 2rem;
+        font-size: 1.7rem;
+        font-weight: bolder;
     }
 }
 
@@ -93,7 +113,13 @@
     width: 70vw;
 }
 .about-toast-header {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    color: #e2c241;
+}
+.about-toast-body {
+    font-size: 1.1rem;
 }
 .about-toast-body p {
     font-size: 1.1rem;
