@@ -64,7 +64,7 @@ class Feedback extends Component {
                                 </FormGroup>
                                 <FormGroup check row>
                                     <Col sm={{ size: 8, offset: 3 }}>
-                                        <Button>Submit</Button>
+                                        <Button color='warning'>Submit</Button>
                                     </Col>
                                 </FormGroup>
                             </Form>

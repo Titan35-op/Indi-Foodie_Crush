@@ -119,15 +119,12 @@
     color: #e2c241;
 }
 .about-toast-body {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .about-toast-body p {
     font-size: 1.1rem;
 }
 @media only screen and (max-width: 960px) {
-    .about-toast-body p {
-        font-size: 1rem;
-    }
     .about-toast {
         width: 85vw;
     }
@@ -223,4 +220,7 @@
     opacity: 0.01;
     transform: translateX(100%);
     transition: all 300ms ease-out;
+}
+.card-img {
+    filter: brightness(70%);
 }
