@@ -28,9 +28,14 @@
 
 /* Navbar */
 
-.navbar img {
+.desk-logo {
     border-radius: 50%;
     margin-right: 5px;
+}
+.mobile-logo {
+    margin: 0;
+    padding: 0;
+    width: 220px;
 }
 .navbar-text{
     color: black;
@@ -98,7 +103,7 @@
     font-weight: bold;
     font-family: 'Architects Daughter', cursive;
     color: #efdb3b;
-    text-shadow: -10px 7px 1px #776c3c;
+    text-shadow: -10px 7px 1px #332b07;
 }
 @media only screen and (max-width: 960px) {
     .jumbotron .card-title {
