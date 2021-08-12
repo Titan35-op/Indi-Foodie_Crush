@@ -78,7 +78,9 @@
         padding: 1px;
     }
     .navbar {
-    margin: -12px;
+    margin-top: -12px;
+    margin-left: -12px;
+    margin-right: -12px;
     }
 }
 
