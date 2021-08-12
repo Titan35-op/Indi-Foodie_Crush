@@ -35,7 +35,7 @@
 .mobile-logo {
     margin: 0;
     padding: 0;
-    width: 220px;
+    width: 250px;
 }
 .navbar-text{
     color: black;
@@ -76,6 +76,9 @@
     }
     .navLinks{
         padding: 1px;
+    }
+    .navbar {
+    margin: -12px;
     }
 }
 
